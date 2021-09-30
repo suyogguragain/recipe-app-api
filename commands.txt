@@ -1,4 +1,8 @@
-#
+#Admin
+email: admin@admin.com
+password: admin
 
 
-
+py -m pip freeze
+pip install -r ..\requirements.txt
+py -m pip freeze > ..\requirements.txt
